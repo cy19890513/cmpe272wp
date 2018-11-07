@@ -8,3 +8,10 @@
 		  _time timestamp DEFAULT NOW() NOT NULL,
 		  UNIQUE KEY id (id)
 		  ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_product-view-counter/product-view-counter.php'), WP_Hook->do_action, WP_Hook->apply_filters, PVC->activate, PVC->create_database, dbDelta
+[07-Nov-2018 01:24:53 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:24:54 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:24:58 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:25:11 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:25:54 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:27:55 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[07-Nov-2018 01:29:55 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
