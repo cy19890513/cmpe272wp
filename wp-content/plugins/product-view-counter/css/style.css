@@ -1,0 +1,17 @@
+/*
+ * CLASS PREFIX: product-view-counter__
+ *
+ * */
+
+.product-view-counter__wrapper{
+	box-shadow: 5px 5px 5px;
+	padding: 10px;
+	text-align: center;
+	border-top: 2px solid #800080;
+	border-left: 10px solid #800080;
+
+}
+
+.product-view-counter__content td{
+	border-bottom: 1px solid #800080;
+}

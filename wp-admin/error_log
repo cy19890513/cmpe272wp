@@ -2,3 +2,9 @@
 [24-Oct-2018 01:53:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home6/boostsho/public_html/wp/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
 [24-Oct-2018 01:59:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home6/boostsho/public_html/wp/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
 [24-Oct-2018 01:59:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home6/boostsho/public_html/wp/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[06-Nov-2018 19:13:25 UTC] WordPress database error Table '58f_product_view_counter' already exists for query CREATE TABLE 58f_product_view_counter(
+		  id int(11) NOT NULL AUTO_INCREMENT,
+		  product_id int(11) DEFAULT '0' NOT NULL,
+		  _time timestamp DEFAULT NOW() NOT NULL,
+		  UNIQUE KEY id (id)
+		  ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_product-view-counter/product-view-counter.php'), WP_Hook->do_action, WP_Hook->apply_filters, PVC->activate, PVC->create_database, dbDelta
