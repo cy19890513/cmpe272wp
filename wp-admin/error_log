@@ -15,3 +15,199 @@
 [07-Nov-2018 01:25:54 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
 [07-Nov-2018 01:27:55 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
 [07-Nov-2018 01:29:55 UTC] PHP Fatal error:  Cannot re-assign $this in /home6/boostsho/public_html/wp/wp-content/plugins/most-viewed-products-for-woocommerce/woocommerce-most-viewed-products-widget.php on line 22
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:13 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:09:14 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:09:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:31) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:10:08 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:10:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:31) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:11:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:11:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:13:12 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:13:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:24 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:14:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:31) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:15:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:16:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:16:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:17:30 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:17:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:19:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:19:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:21:31 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:21:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:22:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:22:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:24:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:24:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:26:32 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:26:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:27:58 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:27:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'display_name' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 31
+[15-Nov-2018 02:29:59 UTC] PHP Warning:  Illegal string offset 'user_email' in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 32
+[15-Nov-2018 02:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:60) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:32:00 UTC] PHP Warning:  include_once(../database.php): failed to open stream: No such file or directory in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 20
+[15-Nov-2018 02:32:00 UTC] PHP Warning:  include_once(): Failed opening '../database.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 20
+[15-Nov-2018 02:32:00 UTC] PHP Warning:  include_once(../user.php): failed to open stream: No such file or directory in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 21
+[15-Nov-2018 02:32:00 UTC] PHP Warning:  include_once(): Failed opening '../user.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 21
+[15-Nov-2018 02:32:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:26
+Stack trace:
+#0 /home6/boostsho/public_html/wp/wp-settings.php(305): include_once()
+#1 /home6/boostsho/public_html/wp/wp-config.php(81): require_once('/home6/boostsho...')
+#2 /home6/boostsho/public_html/wp/wp-load.php(37): require_once('/home6/boostsho...')
+#3 /home6/boostsho/public_html/wp/wp-admin/admin-ajax.php(22): require_once('/home6/boostsho...')
+#4 {main}
+  thrown in /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php on line 26
+[15-Nov-2018 02:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:35:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:36:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:38:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:39:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:41:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:43:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:44:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:45:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:46:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:46:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:48:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:48:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:48:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126
+[15-Nov-2018 02:48:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/boostsho/public_html/wp/wp-content/plugins/user-api/user_api.php:68) in /home6/boostsho/public_html/wp/wp-admin/includes/misc.php on line 1126

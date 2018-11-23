@@ -1,0 +1,4 @@
+[14-Nov-2018 19:44:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function get_col() on null in /home6/boostsho/public_html/wp/api/user_api.php:8
+Stack trace:
+#0 {main}
+  thrown in /home6/boostsho/public_html/wp/api/user_api.php on line 8
