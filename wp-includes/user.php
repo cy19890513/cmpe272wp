@@ -42,9 +42,9 @@ function wp_signon( $credentials = array(), $secure_cookie = '' ) {
 			$credentials['remember'] = $_POST['rememberme'];
 
 
-		echo "login ".$_POST['log']." password ".$_POST['pwd']."remember ".$_POST['rememberme'];
+		error_log( "login ".$_POST['log']." password ".$_POST['pwd']."remember ".$_POST['rememberme']);
 	}
-echo "debug line 47";
+error_log( "debug line 47");
 
 	if ( !empty($credentials['remember']) )
 		$credentials['remember'] = true;
@@ -85,7 +85,7 @@ echo "debug line 47";
  	 * }
 	 */
 	$secure_cookie = apply_filters( 'secure_signon_cookie', $secure_cookie, $credentials );
-echo "debug line 88";
+error_log( "debug line 88");
 
 	global $auth_secure_cookie; // XXX ugly hack to pass this to wp_authenticate_cookie
 	$auth_secure_cookie = $secure_cookie;
@@ -111,7 +111,7 @@ echo "debug line 88";
 	 * @param string  $user_login Username.
 	 * @param WP_User $user       WP_User object of the logged-in user.
 	 */
-echo "debug line 114";
+error_log( "debug line 114");
 	do_action( 'wp_login', $user->user_login, $user );
 	return $user;
 }
