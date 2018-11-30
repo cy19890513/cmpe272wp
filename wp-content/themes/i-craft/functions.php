@@ -904,4 +904,16 @@ function icraft_notice_ignore_008() {
     	add_user_meta($user_id, 'icraft_ignore_notice_008', 'true', true);
     }
 }
+
+add_action('wp_head', 'update_view_count');
+function update_view_count() {
+    global $post;
+    $post_type = 'product';
+    if ($post_type == $post->post_type) {
+        $view_count = get_post_meta($post->ID, '_product_view_count', true) ;
+        $view_count = $view_count ? $view_count : 0;
+        update_post_meta($post->ID, '_product_view_count', (intval($view_count)+1));
+    }
+}
+
 /**/
