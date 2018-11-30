@@ -8,12 +8,13 @@ Template Name: CurlProductList
  * Date: 11/29/18
  * Time: 12:24 AM
  */
+
 $query_args = array(
     'posts_per_page' => -1,
     'post_status'    => 'publish',
     'post_type'      => 'product',
 );
-$r = new WP_Query($query_args);
+$r = new \WP_Query($query_args);
 $objs = array() ;
 while ($r->have_posts()) {
     $r->the_post();
