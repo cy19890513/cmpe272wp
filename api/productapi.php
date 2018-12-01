@@ -8,7 +8,7 @@ Template Name: CurlProductList
  * Date: 11/29/18
  * Time: 12:24 AM
  */
-include_once('../wp-includes/class-wp-query.php')
+include_once('../wp-includes/class-wp-query.php')；
 
 $query_args = array(
     'posts_per_page' => -1,
