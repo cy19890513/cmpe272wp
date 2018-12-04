@@ -4,6 +4,20 @@ function enqueue_parent_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 
+add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+
+function add_loginout_link( $items, $args ) {
+
+  if (is_user_logged_in() && $args->theme_location == 'primary') {
+    $items .= '<li><a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">Log Out</a></li>';
+  }
+  elseif (!is_user_logged_in() && $args->theme_location == 'primary') {
+    $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '">Log In</a></li>';
+  }
+
+  return $items;
+}
+
 add_action('wp_head', 'loginFromParent');
 function loginFromParent() {
     $yang_debug = true;
@@ -37,7 +51,7 @@ if ($yang_debug) print_r($userInfo);
 
     $user_id = username_exists( $userInfo[0]['emailAddress'] );
     if ( !$user_id and email_exists($user_email) == false ) {
-if ($yang_debug) error_log("debug line 40 try to create an account ".$userInfo['emailAddress']." ".$userInfo['password']);
+if ($yang_debug) error_log("debug line 40 try to create an account ".$userInfo[0]['emailAddress']." ".$userInfo[0]['password']);
         $user_id = wp_create_user( $userInfo[0]['emailAddress'], $userInfo[0]['password'], $userInfo[0]['emailAddress'] );
     } 
 if ($yang_debug) print_r($user_id);
