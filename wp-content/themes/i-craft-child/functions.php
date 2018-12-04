@@ -23,7 +23,7 @@ if ($yang_debug) error_log("debug line 13");
         wp_redirect($url);
         exit();
      }
-if ($yang_debug) error_log("debug line 24";
+if ($yang_debug) error_log("debug line 24");
      //Users get from http://roncabeanz.com/Roncabeanz/ReadUsers.php
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://teamalphamarket.com/TeamAlphaMarket/ReadUserInfo.php?userToken=".$userToken);
