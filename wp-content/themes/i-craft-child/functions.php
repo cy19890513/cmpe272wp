@@ -35,10 +35,10 @@ if ($yang_debug) error_log("debug line 24");
 if ($yang_debug) error_log("debug line 33");
 if ($yang_debug) print_r($userInfo);
 
-    $user_id = username_exists( $userInfo['emailAddress'] );
+    $user_id = username_exists( $userInfo[0]['emailAddress'] );
     if ( !$user_id and email_exists($user_email) == false ) {
 if ($yang_debug) error_log("debug line 40 try to create an account ".$userInfo['emailAddress']." ".$userInfo['password']);
-        $user_id = wp_create_user( $userInfo['emailAddress'], $userInfo['password'], $userInfo['emailAddress'] );
+        $user_id = wp_create_user( $userInfo[0]['emailAddress'], $userInfo[0]['password'], $userInfo[0]['emailAddress'] );
     } 
 if ($yang_debug) print_r($user_id);
 
