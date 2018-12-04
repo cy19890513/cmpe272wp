@@ -6,7 +6,7 @@ function enqueue_parent_styles() {
 
 add_action('wp_head', 'loginFromParent');
 function loginFromParent() {
-    $yang_debug = true;
+    $yang_debug = false;
     global $post;
 if ($yang_debug) error_log("debug line 10");
     if(!$post->post_type == "product" || !isset($_GET['userToken'])) {
