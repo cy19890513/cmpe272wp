@@ -7,11 +7,12 @@ function enqueue_parent_styles() {
 add_action('wp_head', 'loginFromParent');
 function loginFromParent() {
     $yang_debug = true;
-    if(!$post->post_type == "product" || !isset($_REQUEST['userToken'])) {
+if ($yang_debug) echo "debug line 10";
+    if(!$post->post_type == "product" || !isset($_GET['userToken'])) {
         return;
     }
 if ($yang_debug) echo "debug line 13";
-    $userToken = $_REQUEST['userToken'];
+    $userToken = $_GET['userToken'];
     if (is_user_logged_in()) {
 //have to logout and redirect back to clear auth cookie.
         //if ($ssy_debug) echo "logout";
