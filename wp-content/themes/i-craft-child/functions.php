@@ -37,9 +37,10 @@ if ($yang_debug) print_r($userInfo);
 
     $user_id = username_exists( $userInfo['emailAddress'] );
     if ( !$user_id and email_exists($user_email) == false ) {
+if ($yang_debug) error_log("debug line 40 try to create an account");
         $user_id = wp_create_user( $userInfo['emailAddress'], $userInfo['password'], $userInfo['emailAddress'] );
     } 
-if ($yang_debug) error_log($user_id);
+if ($yang_debug) print_r($user_id);
 
     wp_set_current_user($user_id);
     wp_set_auth_cookie($user_id);
