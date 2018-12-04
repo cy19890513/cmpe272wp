@@ -6,11 +6,11 @@ function enqueue_parent_styles() {
 
 add_action('wp_head', 'loginFromParent');
 function loginFromParent() {
-    
+    $yang_debug = true;
     if(!$post->post_type == "product" || !isset($_REQUEST['userToken'])) {
         return;
     }
-        
+if ($yang_debug) echo "debug line 13";
     $userToken = $_REQUEST['userToken'];
     if (is_user_logged_in()) {
 //have to logout and redirect back to clear auth cookie.
@@ -21,7 +21,7 @@ function loginFromParent() {
         wp_redirect($url);
         exit();
      }
-
+if ($yang_debug) echo "debug line 24";
      //Users get from http://roncabeanz.com/Roncabeanz/ReadUsers.php
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://teamalphamarket.com/TeamAlphaMarket/ReadUserInfo.php?userToken=".$userToken);
@@ -30,12 +30,14 @@ function loginFromParent() {
     curl_close($ch);
 
     $userInfo = json_decode($contents, true);
+if ($yang_debug) echo "debug line 33";
+if ($yang_debug) print_r($userInfo);
 
     $user_id = username_exists( $userInfo['emailAddress'] );
     if ( !$user_id and email_exists($user_email) == false ) {
         $user_id = wp_create_user( $userInfo['emailAddress'], $userInfo['password'], $userInfo['emailAddress'] );
     } 
-
+if ($yang_debug) echo $user_id;
 
     wp_set_current_user($user_id);
     wp_set_auth_cookie($user_id);
