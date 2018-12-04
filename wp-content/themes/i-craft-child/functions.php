@@ -7,22 +7,22 @@ function enqueue_parent_styles() {
 add_action('wp_head', 'loginFromParent');
 function loginFromParent() {
     $yang_debug = true;
-if ($yang_debug) echo "debug line 10";
+if ($yang_debug) error_log("debug line 10");
     if(!$post->post_type == "product" || !isset($_GET['userToken'])) {
         return;
     }
-if ($yang_debug) echo "debug line 13";
+if ($yang_debug) error_log("debug line 13");
     $userToken = $_GET['userToken'];
     if (is_user_logged_in()) {
 //have to logout and redirect back to clear auth cookie.
-        //if ($ssy_debug) echo "logout";
+        //if ($ssy_debug) error_log("logout");
         wp_logout();
         $url = "/" . $wp->request . "/?userToken=" . $userToken;
-        //if ($ssy_debug) echo $url;
+        //if ($ssy_debug) error_log($url);
         wp_redirect($url);
         exit();
      }
-if ($yang_debug) echo "debug line 24";
+if ($yang_debug) error_log("debug line 24";
      //Users get from http://roncabeanz.com/Roncabeanz/ReadUsers.php
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://teamalphamarket.com/TeamAlphaMarket/ReadUserInfo.php?userToken=".$userToken);
@@ -31,14 +31,14 @@ if ($yang_debug) echo "debug line 24";
     curl_close($ch);
 
     $userInfo = json_decode($contents, true);
-if ($yang_debug) echo "debug line 33";
+if ($yang_debug) error_log("debug line 33");
 if ($yang_debug) print_r($userInfo);
 
     $user_id = username_exists( $userInfo['emailAddress'] );
     if ( !$user_id and email_exists($user_email) == false ) {
         $user_id = wp_create_user( $userInfo['emailAddress'], $userInfo['password'], $userInfo['emailAddress'] );
     } 
-if ($yang_debug) echo $user_id;
+if ($yang_debug) error_log($user_id);
 
     wp_set_current_user($user_id);
     wp_set_auth_cookie($user_id);
