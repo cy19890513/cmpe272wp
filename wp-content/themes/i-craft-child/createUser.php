@@ -3,22 +3,22 @@
 Template Name: CreateUser
 */
 
-$request_method=$_SERVER["REQUEST_METHOD"];
-
-//if not post return 
-if($request_method != 'POST'){
-    header("HTTP/1.0 405 Method Not Allowed");
-    exit();
-}
-
-//header("HTTP/1.0 405 Method Not Allowed");
-$data = json_decode(file_get_contents("php://input"));
-// make sure data is not empty
-if(
-    !empty($data->username) &&
-    !empty($data->emailAddress) &&
-    !empty($data->password) &&
-){
+    $request_method=$_SERVER["REQUEST_METHOD"];
+error_log("debug line 7");
+    //if not post return 
+    if($request_method != 'POST'){
+        header("HTTP/1.0 405 Method Not Allowed");
+        exit();
+    }
+error_log("debug line 13");
+    //header("HTTP/1.0 405 Method Not Allowed");
+    $data = json_decode(file_get_contents("php://input"));
+    // make sure data is not empty
+    if(
+        !empty($data->username) &&
+        !empty($data->emailAddress) &&
+        !empty($data->password) &&
+    ){
  
     // set product property values
 //     $product->name = $data->name;
@@ -44,14 +44,14 @@ if(
     // set response code - 201 created
     http_response_code(201);
     echo json_encode($response);
-}
-// tell the user data is incomplete
-else{
-    // set response code - 400 bad request
-    http_response_code(400);
-    // tell the user
-    echo json_encode(array("message" => "Unable to create product. Data is incomplete."));
-}
+    }
+    // tell the user data is incomplete
+    else{
+        // set response code - 400 bad request
+        http_response_code(400);
+        // tell the user
+        echo json_encode(array("message" => "Unable to create product. Data is incomplete."));
+    }
 
 
 
