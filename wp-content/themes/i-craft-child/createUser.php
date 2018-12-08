@@ -20,20 +20,6 @@ error_log("debug line 13");
         !empty($data->password)
     ){
  
-    // set product property values
-//     $product->name = $data->name;
-//     $product->price = $data->price;
-//     $product->description = $data->description;
-//     $product->category_id = $data->category_id;
-
-// $product_name=$_POST["product_name"];
-// $price=$_POST["price"];
-// $quantity=$_POST["quantity"];
-// $seller=$_POST["seller"];
-
-
-
-
     $response=array(
                 'status' => 1,
                 'status_message' =>'Product Added Successfully.',
@@ -41,9 +27,24 @@ error_log("debug line 13");
                 'password' => $data->password,
                 'emailAddress' => $data->emailAddress
             );
-    // set response code - 201 created
-    http_response_code(201);
-    echo json_encode($response);
+
+    $user_id = username_exists( $data->emailAddress );
+error_log("line 32".(string)$user_id);
+    if ( !$user_id and email_exists($data->emailAddress == false ) {
+        $user_id = wp_create_user( $data->emailAddress, $data->password, $data->emailAddress );
+    
+        // set response code - 201 created
+        http_response_code(201);
+        echo json_encode($response);
+    }else{
+        // set response code - 503 service unavailable
+        http_response_code(503);
+        $response['status'] = 0;
+        $response['status_message'] = 'user exist error';
+        echo json_encode($response);
+    } 
+    
+    
     }
     // tell the user data is incomplete
     else{
