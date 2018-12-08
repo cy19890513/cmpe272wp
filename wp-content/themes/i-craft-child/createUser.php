@@ -4,7 +4,7 @@ Template Name: CreateUser
 */
 
     $request_method=$_SERVER["REQUEST_METHOD"];
-error_log("debug line 7");
+error_log("debug line 7 ".$request_method);
     //if not post return 
     if($request_method != 'POST'){
         header("HTTP/1.0 405 Method Not Allowed");
@@ -17,7 +17,7 @@ error_log("debug line 13");
     if(
         !empty($data->username) &&
         !empty($data->emailAddress) &&
-        !empty($data->password) &&
+        !empty($data->password)
     ){
  
     // set product property values
