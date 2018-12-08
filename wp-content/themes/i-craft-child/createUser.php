@@ -28,8 +28,8 @@ error_log("debug line 13");
                     'emailAddress' => $data->emailAddress
                 );
         $user_id = username_exists( $data->emailAddress );
-error_log("line 32".(string)$user_id);
-        if ( !$user_id and email_exists($data->emailAddress == false ) {
+//error_log("line 32".(string)$user_id);
+        if ( !$user_id and email_exists($data->emailAddress == false){
             
             $user_id = wp_create_user( $data->emailAddress, $data->password, $data->emailAddress );
             // set response code - 201 created
