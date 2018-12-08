@@ -20,31 +20,27 @@ error_log("debug line 13");
         !empty($data->password)
     ){
  
-    $response=array(
-                'status' => 1,
-                'status_message' =>'Product Added Successfully.',
-                'username' => $data->username,
-                'password' => $data->password,
-                'emailAddress' => $data->emailAddress
-            );
-
-    $user_id = username_exists( $data->emailAddress );
+        $response=array(
+                    'status' => 1,
+                    'status_message' =>'Product Added Successfully.',
+                    'username' => $data->username,
+                    'password' => $data->password,
+                    'emailAddress' => $data->emailAddress
+                );
+        $user_id = username_exists( $data->emailAddress );
 error_log("line 32".(string)$user_id);
-    if ( !$user_id and email_exists($data->emailAddress == false ) {
-        $user_id = wp_create_user( $data->emailAddress, $data->password, $data->emailAddress );
-    
-        // set response code - 201 created
-        http_response_code(201);
+        if ( !$user_id and email_exists($data->emailAddress == false ) {
+            
+            $user_id = wp_create_user( $data->emailAddress, $data->password, $data->emailAddress );
+            // set response code - 201 created
+            http_response_code(201);
+        }else{
+            // set response code - 503 service unavailable
+            http_response_code(503);
+            $response['status'] = 0;
+            $response['status_message'] = 'user exist error';
+        }
         echo json_encode($response);
-    }else{
-        // set response code - 503 service unavailable
-        http_response_code(503);
-        $response['status'] = 0;
-        $response['status_message'] = 'user exist error';
-        echo json_encode($response);
-    } 
-    
-    
     }
     // tell the user data is incomplete
     else{
