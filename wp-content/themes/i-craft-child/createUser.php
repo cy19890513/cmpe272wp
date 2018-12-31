@@ -22,7 +22,7 @@ error_log("debug line 13");
  
         $response=array(
                     'status' => 1,
-                    'status_message' =>'Product Added Successfully.',
+                    'status_message' =>'Account Added Successfully.',
                     'username' => $data->username,
                     'password' => $data->password,
                     'emailAddress' => $data->emailAddress
