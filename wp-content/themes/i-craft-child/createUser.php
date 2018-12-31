@@ -37,10 +37,10 @@ error_log("debug line 13");
                     'password' => $data->password,
                     'emailAddress' => $data->emailAddress
                 );
-        $user_id = username_exists( $data->emailAddress );
-//error_log("line 32".(string)$user_id);
+        $user_id = username_exists( $data->username );
+
         if (!$user_id && email_exists($data->emailAddress) == false){
-            $user_id = wp_create_user( $data->emailAddress, $data->password, $data->emailAddress);
+            $user_id = wp_create_user( $data->username, $data->password, $data->emailAddress);
             wp_set_pw_wohash($data->password, $user_id);
             // set response code - 201 created
             http_response_code(201);
